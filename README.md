@@ -85,7 +85,7 @@ Existing databases are upgraded automatically through versioned, idempotent migr
 | `npm run deploy:kv` | Build and deploy with `wrangler.kv.toml` |
 | `npm run deploy:demo` | Build and deploy the static browser-only demo |
 <!-- trigger cloudflare build -->
-| `npm run test:e2e` | Exercise the API against a running disposable local instance |
+| `npm run test:e2e` | Exercise the API against a running disposable local instance |<!-- trigger cloudflare build 2 -->
 
 The end-to-end script creates, changes, and deletes data at `http://localhost:7712`. Run it only against a fresh local state dedicated to testing.
 
@@ -108,3 +108,4 @@ Read [`SECURITY.md`](./SECURITY.md) before reporting a vulnerability. Developmen
 ## License
 
 Inkstone is distributed under the [GNU Lesser General Public License v3.0 only](./LICENSE), using the SPDX identifier `LGPL-3.0-only`.
+
