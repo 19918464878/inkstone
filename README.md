@@ -84,6 +84,7 @@ Existing databases are upgraded automatically through versioned, idempotent migr
 | `npm run build` | Type-check and create a production build |
 | `npm run deploy:kv` | Build and deploy with `wrangler.kv.toml` |
 | `npm run deploy:demo` | Build and deploy the static browser-only demo |
+<!-- trigger cloudflare build -->
 | `npm run test:e2e` | Exercise the API against a running disposable local instance |
 
 The end-to-end script creates, changes, and deletes data at `http://localhost:7712`. Run it only against a fresh local state dedicated to testing.
