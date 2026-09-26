@@ -10,3 +10,4 @@
 *.woff2 binary
 *.ttf binary
 # cf: trigger Cloudflare build
+# cf: trigger Cloudflare build 2
